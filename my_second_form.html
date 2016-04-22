@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My First HTML Form</title>
+	</head>
+	<body>
+		<h2>User Login</h2>
+		<form method="POST" action="http://requestb.in/199w1un1">
+			<p>
+				<label for="username">Username</label>
+				<input id="username" name="username" type="text" placeholder="Enter username here.">
+			</p>
+			<p>
+				<label for="password">Password</label>
+				<input name="username" type="password" placeholder="Enter password here.">
+			</p>
+			<p>
+				<button name="submit">Login</button>
+			</p>
+		</form>
+		<h2>Compose an Email</h2>
+		<form method="POST" action="http://requestb.in/199w1un1http://requestb.in/199w1un1">
+			<p>
+				<label for="email_address_to">To</label>
+				<input id="email_address_to" name="email_address_to" type="text" placeholder="Send to this address.">
+			</p>
+			<p>
+				<label for="email_address_from">From</label> 
+				<input id="email_address_from" name="email_address_to" type="text" placeholder="Your email here.">
+			</p>
+			<p>
+				<label for="subject">Subject</label>
+				<input id="subject" name="subject" type="text" placeholder="Concerns">
+			</p>
+			<p>
+				<textarea id="email_body" name="email_body" rows="15" cols="40"></textarea>
+			</p>
+			<input type="checkbox" id="copysent" name="copysent" value="yes" checked>
+			<label for="copysent">Save copy to your Sent Folder?</label>
+			<p>
+				<button name="submit">Send</button>
+			</p>
+		</form>
+		<h2>Multiple Choice Text</h2>
+		<form method="POST" action="http://requestb.in/199w1un1">
+			<p>Which is your favorite color?</p>
+			<p><label>
+				<input type="radio" name="color" value="red">
+				Red
+			</label></p>
+			<p><label>
+				<input type="radio" name="color" value="green">
+				Green
+			</label></p>
+			<p><label>
+				<input type="radio" name="color" value="blue">
+				Blue
+			</label></p>
+			<p><label>
+				<input type="radio" name="color" value="yellow">
+				Yellow
+			</label></p>
+			<p>
+				<input type="submit">
+			</p>
+		</form>
+		<form method="POST" action="http://requestb.in/199w1un1">
+			<p>What is a mode of transportation you have used?</p>
+			<label><input type="checkbox" id="transport1" name="transport[]" value="bicycle">Bicyle</label>
+			<label><input type="checkbox" id="transport2" name="transport[]" value="bus">Bus</label>
+			<label><input type="checkbox" id="transport3" name="transport[]" value="car">Car</label>
+			<label><input type="checkbox" id="transport4" name="transport[]" value="airplane">Airplane</label>
+			<p>
+				<input type="submit">
+			</p>
+		</form>
+		<form method="POST" action="http://requestb.in/199w1un1">
+			<p>Choose all, if any, the jazz musicians you enjoy.</p>
+			<label for="jazz"></label>
+			<select id="jazz"name="jazz[]" multiple>
+				<option value="miles_davis">Miles Davis</option>
+				<option value="sonny_rollins">Sonny Rollins</option>
+				<option value="thelonious_monk">Thelonious Monk</option>
+			</select>
+			<p>
+				<input type="submit" value="Display level of pretense.">
+		<h2>Select Testing</h2>
+		<form method="POST" action="http://requestb.in/199w1un1">
+			<p>Do you like coffee?</p>
+			<label for="coffee"></label>
+			<select id="coffee" name="coffee">
+				<option value="1" selected>Yes</option>
+				<option value="0">No</option>
+			</select>
+			<p>
+				<input type="submit" value="Tell us!">
+			</p>
+	</body>
